@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaCasaDelVapor.LoginPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White" Padding="20">
+            <Image Source="LogoLaCasaDelVapor" WidthRequest="200" Margin="0,25,0,0"></Image>
+            <Entry Placeholder="Usuario" Margin="0,15,0,0"></Entry>
+            <Entry Placeholder="Contraseña"></Entry>
+            <Button Text="Iniciar Sesion" BackgroundColor="Black" TextColor="White" CornerRadius="20" Margin="0,15,0,0"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
